@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>About BIG5 | Bicycle Rentals CDO</title>
+<link rel="stylesheet" href="css/style.css"/>
+<style>
+  body{overflow-x:hidden;}
+  .about-wrap{max-width:1100px;margin:72px auto 80px;padding:0 20px;}
+  .about-hero{margin-bottom:40px;text-align:center}
+  .about-hero h1{font-family:var(--font-h);font-size:clamp(2.4rem,5vw,3.7rem);color:var(--ink);margin-bottom:16px}
+  .about-hero p{font-family:var(--font-m);font-size:1rem;color:var(--muted);line-height:1.6;max-width:780px;margin:0 auto}
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px}
+  .about-card{background:var(--paper);border:1px solid var(--border);padding:24px;box-shadow:0 2px 15px rgba(0,0,0,.07)}
+  .about-card h2{font-family:var(--font-h);font-size:1.5rem;margin-bottom:12px}
+  .about-card p{font-size:.95rem;color:var(--ink);line-height:1.65}
+  .about-back{display:inline-flex;align-items:center;gap:10px;margin-top:24px;text-decoration:none;font-family:var(--font-m);color:var(--moss);border:1px solid var(--moss);padding:10px 16px;border-radius:8px}
+  .about-back:hover{background:var(--moss);color:var(--chalk)}
+  @media (max-width:880px){.about-grid{grid-template-columns:1fr}}  
+</style>
+</head>
+<body>
+<header style="position:fixed;top:0;left:0;width:100%;z-index:600;background:var(--ink);border-bottom:2px solid var(--moss)">
+  <div class="hdr-inner" style="padding:10px 20px;height:60px;gap:16px">
+    <a href="pedal.html" class="logo" style="gap:6px">
+      <div class="logo-text" style="font-size:1.4rem">BIG5</div>
+      <div class="logo-dot"></div>
+    </a>
+    <div style="margin-left:auto;display:flex;gap:10px">
+      <a href="pedal.html" class="btn-admin-hdr" style="padding:8px 14px;">Home</a>
+      <a href="pedal.html" class="btn-rent-hdr" style="padding:8px 14px;">Explore</a>
+    </div>
+  </div>
+</header>
+
+<div class="about-wrap">
+  <div class="about-hero">
+    <h1>About BIG5 Bicycle Rentals</h1>
+    <p>BIG5 is a locally operated bicycle rental service in Cagayan de Oro (CDO) that provides premium bikes, transparent rates, and friendly support 24/7. We make it easy for visitors and locals to explore Cagayan de Oro and nearby trails with confidence and comfort.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-card">
+      <h2>Our Shop</h2>
+      <p>
+        At BIG5, we’ve built a bike fleet with mountain, road, hybrid, city, and electric models kept in excellent condition. Each rental includes preventive maintenance checks, dependable accessories, and safety equipment. Our mission is helping riders discover more itinerary options, stay safe on their ride, and enjoy the outdoors.
+      </p>
+      <p style="margin-top:16px">
+        We offer flexible booking, real-time rental tracking, and competitive pricing from hourly to daily packages. Senior and student discounts are available upon request.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h2>Developer</h2>
+      <p>
+        This web application was created by the BIG5 development team as a showcase of modern UI/UX design and lightweight JavaScript-powered booking flow. It uses plain HTML/CSS/JavaScript for easy editing and local deployment.
+      </p>
+      <p style="margin-top:16px">
+        Team members:
+        <ul style="margin-top:8px;margin-left:20px;line-height:1.6;color:var(--ink);">
+          <li>Adajar, Zean Anthony</li>
+          <li>Alcantara, Tyron Jay</li>
+          <li>Gutang, Beryl Lord</li>
+          <li>Palac, Ryan</li>
+          <li>Silvano, Karim</li>
+        </ul>
+      </p>
+      <p style="margin-top:16px;color:var(--muted);font-size:.85rem">
+        Tip: Change this section if you want to add emails or GitHub handles.
+      </p>
+    </div>
+  </div>
+
+  <a class="about-back" href="pedal.html">← Back to BIG5 homepage</a>
+</div>
+
+</body>
+</html>
